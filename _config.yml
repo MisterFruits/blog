@@ -2,6 +2,7 @@
 title: Maxiimou blog posts
 email: maxiimou@gmail.com
 github_username:  maxiimou
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
