@@ -7,7 +7,7 @@ categories: tuto
 
 Avant de commencer on peut connecter son ordinateur sur un grand écran, comme une télé, [suivez le tuto][setup-tv] !
 
-# Lancer l’application
+## Lancer l’application
 Elle devrait se trouver dans dock et si elle n’est pas présente, la chercher dans le dossier Applications.
 Après un petit temps de chargement l’écran suivant devrait s’afficher :
 
@@ -19,7 +19,7 @@ Noter l’onglet “Movies” sélectionné (souligné en bleu) en haut à gauch
 
 <img src="/images/popcorn-movie-tab.png">
 
-# Sélectionner un film
+## Sélectionner un film
 
 On peut procéder de deux façons différentes. En choisir un dans la liste des films populaire (cliquer dessus et passer à [l'étape suivante][visionner]) ou utiliser la fonction recherche pour trouver un film.
 
@@ -33,7 +33,7 @@ Puis entrer le nom du film et appuyer sur la touche entrée et sélectionner le 
 
 <img src="/images/popcorn-select.png">
 
-# Visionner
+## Visionner
 Cliquer sur “Watch now” et attendre que le film charge.
 
 Une fois le film lancer, on peut régler la langue et la taille des sous-titres en utilisant les boutons en bas à droite de la fenêtre. Puis mettre utiliser les flèches pour mettre en plein écran:
