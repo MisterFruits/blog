@@ -42,4 +42,4 @@ Une fois le film lancer, on peut régler la langue et la taille des sous-titres 
 
 
 [visionner]: #visionner
-[setup-tv]: #visionner
+[setup-tv]: /tuto/2015/03/30/connection-tv-ordi.html
