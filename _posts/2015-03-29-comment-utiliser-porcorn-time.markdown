@@ -11,13 +11,13 @@ Avant de commencer on peut connecter son ordinateur sur un grand écran, comme u
 Elle devrait se trouver dans dock et si elle n’est pas présente, la chercher dans le dossier Applications.
 Après un petit temps de chargement l’écran suivant devrait s’afficher :
 
-<img src="/images/popcorn-mainframe.png">
+<img src="{{ site.baseurl }}/images/popcorn-mainframe.png">
 
 Si l’application semble charger indéfiniment, la quitter puis la relancer.
 
 Noter l’onglet “Movies” sélectionné (souligné en bleu) en haut à gauche de la fenêtre, indispensable si on veut regarder des films :
 
-<img src="/images/popcorn-movie-tab.png">
+<img src="{{ site.baseurl }}/images/popcorn-movie-tab.png">
 
 ## Sélectionner un film
 
@@ -27,18 +27,18 @@ On peut procéder de deux façons différentes. En choisir un dans la liste des 
 
 Pour chercher cliquer sur la petite loupe en haut à droite de la fenêtre:
 
-<img src="/images/popcorn-serach.png">
+<img src="{{ site.baseurl }}/images/popcorn-serach.png">
 
 Puis entrer le nom du film et appuyer sur la touche entrée et sélectionner le film voulu:
 
-<img src="/images/popcorn-select.png">
+<img src="{{ site.baseurl }}/images/popcorn-select.png">
 
 ## Visionner
 Cliquer sur “Watch now” et attendre que le film charge.
 
 Une fois le film lancer, on peut régler la langue et la taille des sous-titres en utilisant les boutons en bas à droite de la fenêtre. Puis mettre utiliser les flèches pour mettre en plein écran:
 
-<img src="/images/popcorn-settings.png">
+<img src="{{ site.baseurl }}/images/popcorn-settings.png">
 
 
 [visionner]: #visionner
