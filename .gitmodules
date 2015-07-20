@@ -1,0 +1,3 @@
+[submodule "static/vault"]
+	path = static/vault
+	url = git@github.com:maxiimou/vault
