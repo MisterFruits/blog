@@ -6,9 +6,9 @@ from bottle import default_app, route, static_file
 def hello_world():
     return 'Hello from Bottle!'
 
-@route('/static/<filename>')
-def serve_static(filename):
-    return static_file(filename, root = '/home/maxiimou/prod/pythonanywhere/static')
+@route('/static/<filepath:path>')
+def serve_static(filepath):
+    return static_file(filepath, root = '/home/maxiimou/prod/pythonanywhere/static')
 
 application = default_app()
 
