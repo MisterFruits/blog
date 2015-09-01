@@ -30,8 +30,8 @@ def maddam_input():
 @post('/mad-dam')
 @view('mad-dam_submited')
 def maddam_submit():
-    title = request.forms.get('title')
-    image = request.files.get('upload')
+    title = request.forms.get('title') or ''
+    image = request.files.get('upload') or ''
 
     adventure_name, file_ext = os.path.splitext(image.filename)
     if not is_regular_adventure(title, file_ext):
@@ -40,7 +40,7 @@ def maddam_submit():
     caption = request.forms.get('caption') or None
     date = datetime.datetime.now()
 
-    adventure_name = '-'.join(date.strftime(SHORT_TIME_FORMAT), adventure_name)
+    adventure_name = '-'.join((date.strftime(SHORT_TIME_FORMAT), adventure_name))
     return dict(success=True)
 
 @view('an_adventure')
