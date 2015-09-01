@@ -10,12 +10,12 @@ def hello_world():
 def serve_static(filepath):
     return static_file(filepath, root = '/home/maxiimou/prod/pythonanywhere/static')
 
-@route('/mad-dam/')
+@route('/mad-dam')
 @view('mad-dam')
 def maddam_input():
     return
 
-@post('/mad-dam/')
+@post('/mad-dam')
 def maddam_submit():
     return True
 
