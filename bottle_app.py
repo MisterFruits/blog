@@ -17,7 +17,10 @@ def maddam_input():
 
 @post('/mad-dam')
 def maddam_submit():
-    return True
+    title = request.forms.get('title')
+    caption = request.forms.get('caption')
+    image = request.files.get('upload')
+    return 'Bravo ! Vous avez aidé mad-dam à faire son coup !'
 
 application = default_app()
 
