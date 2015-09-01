@@ -13,7 +13,7 @@ def serve_static(filepath):
 @route('/mad-dam')
 @view('mad-dam')
 def maddam_input():
-    return
+    return dict()
 
 @post('/mad-dam')
 def maddam_submit():
