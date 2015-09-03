@@ -30,7 +30,7 @@ def maddam_input():
 
 
 @route('/mad-dam/m')
-@view('mad-dam')
+@view('mad-dam_mobile')
 def maddam_mobile():
     return dict()
 
