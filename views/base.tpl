@@ -18,6 +18,11 @@
         </div>
         <div class="container">
             {{ !base }}
+            
+            <hr>
+            <footer>
+                <p>G.A.G. Team 2015</p>
+            </footer>
         </div>
 
         <!-- Bootstrap core JavaScript
