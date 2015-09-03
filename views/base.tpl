@@ -11,6 +11,11 @@
     </head>
 
     <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Mad-Dam uploader!</h1>
+            </div>
+        </div>
         <div class="container">
             {{ !base }}
         </div>
