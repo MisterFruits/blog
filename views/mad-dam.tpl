@@ -1,3 +1,4 @@
+% rebase('base.tpl', title='Upload to mad-dam')
 <form action="/mad-dam" method="post" enctype="multipart/form-data">
   <div class="form-group">
     <label for="title">Title</label>
