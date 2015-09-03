@@ -13,6 +13,6 @@
     <input type="file" id="inputImage" accept="image/*" name="upload">
     <p class="help-block">Image only here.</p>
   </div>
-  <button type="submit" class="btn btn-default">Upload to mad-dam</button>
+  <button type="submit" class="btn btn-primary">Upload to mad-dam</button>
 </form>
 
