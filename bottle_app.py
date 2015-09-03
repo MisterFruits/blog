@@ -25,6 +25,12 @@ def serve_static(filepath):
 def maddam_input():
     return dict()
 
+@route('/mad-dam/m')
+@view('mad-dam')
+def maddam_mobile():
+    return dict()
+
+
 @post('/mad-dam')
 @view('mad-dam_submited')
 def maddam_submit():
